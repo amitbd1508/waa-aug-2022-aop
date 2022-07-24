@@ -16,7 +16,7 @@ import org.springframework.stereotype.Component;
 public class ExecutionTimeAspect {
   private final ActivityLogService activityLogService;
 
-  @Pointcut("@annotation(lab5.aop.springaop.helper.ExecutionTime)")
+  @Pointcut("@annotation(lab5.aop.springaop.annotation.ExecutionTime)")
   public void runtime(){}
 
   // common solution

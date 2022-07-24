@@ -1,7 +1,7 @@
 package lab5.aop.springaop.service.impl;
 
 import lab5.aop.springaop.entity.ActivityLog;
-import lab5.aop.springaop.helper.ExecutionTime;
+import lab5.aop.springaop.annotation.ExecutionTime;
 import lab5.aop.springaop.repository.ActivityLogRepo;
 import lab5.aop.springaop.service.ActivityLogService;
 import lombok.RequiredArgsConstructor;
